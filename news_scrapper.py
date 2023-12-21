@@ -74,7 +74,7 @@ def makeList(newlist, content):
 # print("\n크롤링할 종료 페이지: ",page2,"페이지")   
 
 
-def news_crawler(search,page,page2):
+def news_crawler(search,page=1,page2=5):
     # naver url 생성
     page = int(page)
     page2 = int(page2)
